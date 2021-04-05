@@ -1,0 +1,17 @@
+.website__url-heading {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #AAAAAA;
+}
+
+@media (max-width: 1023px) {
+  .website__url-heading {
+    line-height: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+.lead {
+  max-width: 984px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+}
+
+@media (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead {
+    width: 100%;
+  }
+}
