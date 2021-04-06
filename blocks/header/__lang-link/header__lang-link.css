@@ -9,8 +9,12 @@
   margin-right: 18px;
 }
 
-.header__lang-link:last-of-type {
+li:last-of-type .header__lang-link {
   margin-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 767px) {

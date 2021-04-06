@@ -1,12 +1,12 @@
 .intro {
   max-width: 690px;
   margin-top: 92px;
-  margin-left: 148px;
+  margin-left: calc((100% - 984px)/2);
 }
 
 @media (max-width: 1279px) {
   .intro {
-    margin-left: 48px;
+    margin-left: calc((100% - 928px)/2);
   }
 }
 
